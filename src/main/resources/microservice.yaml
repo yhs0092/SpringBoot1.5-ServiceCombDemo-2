@@ -1,0 +1,15 @@
+APPLICATION_ID: SpringBoot1.5-to-CSE
+service_description:
+  name: test-server
+  version: 0.0.1
+servicecomb:
+  service:
+    registry:
+      address: http://127.0.0.1:30100
+  monitor:
+    client:
+      enabled: false
+  rest:
+    address: 0.0.0.0:8080
+    servlet:
+      urlPattern: /rest/*
