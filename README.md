@@ -1,0 +1,1 @@
+用于展示SpringBoot服务接入CSE的场景下，如何保留SpringBoot的Servlet，达到部分请求走SpringBoot，部分请求走ServiceComb处理的效果。
